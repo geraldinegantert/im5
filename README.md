@@ -1,7 +1,5 @@
 # IM5 Webprojekt
 
-# Dokumentation zu meinem IM5 Projekt
-
 # Allgemein
 
 Auf meiner Webseite für meine Bachelorarbeit, will ich einen Überblick und mehr Informationen zu meiner Bachelorarbeit geben.
