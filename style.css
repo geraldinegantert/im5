@@ -1,0 +1,397 @@
+header{
+    display:flex;
+    align-items: center;
+  }
+  
+.logo{
+    flex: 1;
+    margin: 20px;
+}
+
+.logo{
+padding: 5;
+}
+
+*{
+  font-family: "Avenir";
+  font-weight:900;
+  color: #ffffff;
+  text-decoration:none;
+}
+
+footer {
+   /*position: fixed;
+   left: 0;
+   bottom: 0;*/
+   width: 100%;
+   background-color: transparent;
+   text-align: center;
+   padding-top:10px;
+   padding-bottom:10px;
+   margin-top:10px;
+   font-size: 20px;
+}
+
+.footer {
+  color: black;
+  text-decoration: none;
+}
+
+body {
+  background-color: #3c057c;
+  background-image: url(../img/hintergrund/aura_hintergrund_2.png);
+  background-position: center 50%;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Open Sans", sans-serif;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  /* ACCESSIBILITY */
+  /* KLASSEN */
+}
+
+body {font-size: 100%}
+
+.headline {font-size: 4.5em;}
+.subtitle {font-size: 2.5em;}
+.subtitle-2 {font-size: 1.5em;}
+.flex-item-1 {font-size: 4em;}
+.flex-item-2 {font-size: 4em;}
+
+@media screen and (max-width: 88em) {
+  .headline {
+    font-size: 5em;
+  }
+  .subtitle {
+    font-size: 2.5em;
+  }
+  .flex-item-1 {
+    font-size: 4em;
+  }
+  .flex-item-2 {
+    font-size: 4em;
+  }
+}
+
+@media screen and (max-width: 64em) {
+  .headline {
+    font-size: 4.5em;
+  }
+  .subtitle {
+    font-size: 2em;
+  }
+  .flex-item-1 {
+    font-size: 3em;
+  }
+  .flex-item-2 {
+    font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 50em) {
+  .headline {
+    font-size: 3em;
+  }
+  .subtitle {
+    font-size: 1.5em;
+  }
+  .subtitle-2 {
+    font-size: 1em;
+  }
+  .flex-item-1 {
+    font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 30em){
+.headline {
+    font-size: 2em;
+  }
+  subtitle {
+    font-size: 0.5em;
+  }
+  .subtitle-2 {
+    font-size: 0.5em;
+  }
+}
+
+/*Design Menü*/
+.nav_links{
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  list-style:none;
+  margin: 30px;
+  margin-top: 80px;
+}
+
+.aktiver_menuelink{
+  font-size: 30px;
+  color: white;
+}
+
+/*Boxen Anordnung Titel Startseite*/
+.wrapper {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 50%;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.bild-rechts {
+  grid-column: 2;
+  grid-row: 1;
+  text-align: center;
+  justify-content: center;
+  width: 50%;
+}
+
+/*Titel Startseite*/
+.headline{
+  font-family: "Anton";
+  text-align: center;
+  justify-content: center;
+  grid-column: 1;
+  grid-row: 1;
+  margin-top: 180px;
+  margin-left: 100px;
+}
+
+.subtitle{
+  text-align: center;
+  margin-bottom: 50px;
+  grid-column: 1;
+  grid-row: 1;
+  margin-top: 400px;
+  margin-left: 100px;
+}
+
+.subtitle-2{
+  text-align: center;
+  margin-bottom: 450px;
+  grid-column: 1;
+  grid-row: 1;
+  margin-top: 600px;
+  margin-left: 100px;
+}
+
+/*Boxen Hauptteil Startseite*/
+.flex-container {
+  display: grid;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+.flex-item-1{
+  text-align: center;
+  justify-content: center;
+  grid-column: 1;
+  grid-row: 1;
+}
+.flex-item-2 {
+  text-align: center;
+  justify-content: center;
+  grid-column: 1;
+  grid-row: 2;
+}
+
+/*Seite News*/
+.news{
+  margin: 100px;
+  font-size: 60px;
+  font-family: "Anton";
+}
+
+/*Seite About*/
+.about{
+  margin: 100px;
+  font-size: 60px;
+  font-family: "Anton";
+}
+.about-text{
+  margin: 100px;
+  font-size: 22px;
+}
+
+/*Seite Bachelorthesis*/
+.bachelorthesis{
+  margin: 100px;
+  font-size: 60px;
+  font-family: "Anton";
+}
+.bachelorthesis-text{
+  margin: 100px;
+  font-size: 22px;
+}
+
+/*Seite Lehrprojekt*/
+.lehrprojekt{
+  margin: 100px;
+  font-size: 60px;
+  font-family: "Anton";
+}
+.lehrprojekt-text{
+  margin: 100px;
+  font-size: 22px;
+  margin-bottom: 0px;
+}
+.titel-episoden{
+  margin: 100px;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bild-lehrprojekt{
+  margin: 50px;
+  margin-left: 200px;
+  display: flex;
+  align-items: first baseline;
+  justify-content: first baseline;
+  width: 80%;
+}
+.wrapper-lehrprojekt{
+  display: grid;
+  grid-template-columns: 50%;
+}
+.episode-1{
+  font-size: 35px;
+  margin-top: 50px;
+  display: flex;
+  grid-column: 2;
+  grid-row: 1;
+}
+.episode-2{
+  font-size: 35px;
+  margin-top: 50px;
+  display: flex;
+  grid-column: 2;
+  grid-row: 2;
+}
+.episode-3{
+  font-size: 35px;
+  margin-top: 50px;
+  display: flex;
+  grid-column: 2;
+  grid-row: 3;
+}
+.episode-text-1{
+  font-size: 20px;
+  margin-top: 150px;
+  margin-right: 50px;
+  grid-column: 2;
+  grid-row: 1;
+}
+.episode-text-2{
+  font-size: 20px;
+  margin-top: 150px;
+  margin-right: 50px;
+  grid-column: 2;
+  grid-row: 2;
+}
+.episode-text-3{
+  font-size: 20px;
+  margin-top: 150px;
+  margin-right: 50px;
+  grid-column: 2;
+  grid-row: 3;
+}
+
+/*Seite Autorin*/
+.autorin{
+  margin: 100px;
+  font-size: 60px;
+  font-family: "Anton";
+}
+.autorin-text{
+  margin: 100px;
+  font-size: 22px;
+}
+
+/*News*/
+.recentNews .news-title {
+  text-align:center;
+  padding-top:30px;
+  padding-bottom:30px;
+  font-family: 'Anton', sans-serif;
+  font-size:55px;
+  font-weight:bold;
+  color: #fff;
+}
+.recentNews .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.recentNews .ct-blog {
+  margin-bottom: 30px;
+}
+.ct-blog .inner {
+  background-color: #FFF;
+  padding: 10px;
+  transition: all 0.2s ease-in-out 0s;
+  cursor: pointer;
+  height: 100%;
+}
+.ct-blog .inner:hover {
+  background-color: #e6e6e6;
+}
+.ct-blog .fauxcrop {
+  height: 180px;
+  overflow: hidden;
+}
+.ct-blog .fauxcrop img {
+  width: 100%;
+}
+.ct-blog-content {
+  display: table;
+  padding: 30px 0 28px;
+}
+.ct-blog-content .ct-blog-date {
+  border-right: 1px solid #95A5A6;
+  display: table-cell;
+  font-family: "Lato", sans-serif;
+  padding: 0px 18px 0px 15px;
+  text-align: center;
+}
+.ct-blog-content .ct-blog-date span {
+  font-size: 16px;
+  color: rgb(20, 117, 175);  
+  font-weight: 700;
+  display: block;
+  line-height: 1;
+}
+.ct-blog-content .ct-blog-date strong {
+  font-size: 25px;
+  color: rgb(20, 117, 175);  
+}
+.ct-blog-content .ct-blog-header {
+  color: #000;
+  display: table-cell;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+  line-height: 1.1;
+  padding: 0 20px;
+  vertical-align: top;
+}
+.btn-news {
+  color: #333;
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.btn-news.btn-contests a {
+  color: #fff;
+  font-family: 'nimbus-sans-condensed', sans-serif;
+  font-size: 24px;
+  transition: all 0.2s ease-in-out 0s;
+}
+.btn-news.btn-contests a:hover {
+  color: #000;
+}
